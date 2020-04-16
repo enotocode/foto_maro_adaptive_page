@@ -445,19 +445,19 @@ nav select {
 }
 
 
-    @media (max-width: 1120px) {
-      .long { display: none; }
-      .medium { display: inline-block; }
-      .shoppincart {
+@media (max-width: 1230px) {
+    .long { display: none; }
+    .medium { display: inline-block; }
+    .shoppincart {
         min-width: 360px;
-      }
+    }
 }
-     @media (max-width: 890px) {
-      .medium { display: none; }    
-      .short { display: inline-block; }
-      .shoppincart {
-        min-width: 233px;
-      }
+ @media (max-width: 1150px) {
+    .medium { display: none; }    
+    .short { display: inline-block; }
+    .shoppincart {
+        min-width: 250px;
+    }
      
 }
 .sushinav {
@@ -884,7 +884,7 @@ footer .btn:active {
     }
 }
 
-@media (min-width: 968px) {
+@media (min-width: 990px) {
     .footerwrap {
         padding: 0;
     }
