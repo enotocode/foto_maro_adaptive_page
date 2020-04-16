@@ -1,7 +1,10 @@
 #FUTO MARO
 Simple html page with bootstrap 3. 
 
-Tested in Google Chrome 81.0.4044.92.
+* Feedback form opens on click by button "отзывы" in the main menu;
+
+Tested in Google Chrome 81.0.4044.92. 
+
 
 INSTALL
 -----------
