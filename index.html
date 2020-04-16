@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">        
+    <title>Доставка суши в Иркутске Футо Маро.</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-black.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> -->
+    <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <!-- Scroll menu -->
+    <script type="text/javascript" src="jquery-scrolltofixed.js"></script>            
+  </head>  
+  <body>   
+    <!-- Header -->
+    <header>
+      <div class="headerwrap">
+        <!-- <div class="row"> -->
+          <div class="branding">            
+              <div class="pull-left logo">
+                <img src="img/logo/logo.svg" alt="Футо Маро">
+              </div>
+              <div class="pull-left brandname">
+                <h1>ФУТО МАРО</h1><em>Доставка суши в Иркутске</em>
+              </div>           
+          </div><!-- End branding -->          
+          <div class="pages-navigation hamburger"><!-- Pages navigation -->
+                     
+            <ul class="nav">
+              <li><a href="#" id="Sale">Акции</a></li>
+              <li><a href="#" id="Delivery">Доставка</a></li>
+              <li><a href="#" id="Reviews">Отзывы</a></li>
+              <li><a href="#" id="About-restaurant">О ресторане</a></li>
+              <li><a href="#" id="Contacts">Контакты</a></li>
+            </ul>
+          </div> <!-- End pages navigation -->
+          <!-- Contacts -->
+          <div class="contacts">
+            <p id="tel">
+              <img src="img/icons/icon-06.svg" alt="Телефон в Иркутске">&nbsp&nbsp<strong>77-77-77</strong>
+            </p>
+            <p id="workhours">
+              Часы работы: 10 - 24
+            </p>
+          </div><!-- End contacts -->
+        <!-- </div> --> 
+      </div><!-- end headerwrap --> 
+    </header>      
+    <!-- Scroll navigation div--> 
+    <div id="scrollnavi" class="container-fluid">
+      <div class="navwrap">
+        <div class="sushinav">
+          <!-- Sushi navigation menu --> 
+          <nav>                
+            <ul class="nav nav-pills nav-justified">
+              <li><a href="#">Суши</a></li>
+              <li><a href="#">Напитки</a></li>
+              <li><a href="#">Роллы</a></li>
+              <li><a href="#">Наборы</a></li>
+              <li><a href="#">Горячие блюда</a></li>
+              <li><a href="#">Десерты</a></li>
+              <li><a href="#">Салаты</a></li>
+            </ul>
+            <!-- Convert a menu to a Dropdown for Small Screens navigation -->
+            <select> 
+              <option value="" selected="selected">Меню ресторана</option>     
+              <option value="/">Суши</option> 
+              <option value="/collections/all">Напитки</option> 
+              <option value="/blogs/five-simple-steps-blog">Роллы</option> 
+              <option value="/pages/about-us">Наборы</option> 
+              <option value="/pages/support">Горячие блюда</option>
+              <option value="/pages/about-us">Десерты</option> 
+              <option value="/pages/support">Салаты</option> 
+            </select>          
+          </nav>  
+        </div> <!-- End Sushi navigation menu col -->      
+        <div class="shoppincart">
+          <!-- Shopping cart -->  
+          <div class="long">
+            <img src="img/icons/icon-07.svg" alt="Корзина покупок">&nbsp
+            <p>
+              Корзина: 12 товаров на сумму:&nbsp<strong>18 987 р</strong>&nbsp&nbsp
+              <a class="btn btn-success" href="#" role="button">Заказать</a>
+            </p>
+          </div>
+          <div class="medium">
+            <img src="img/icons/icon-07.svg" alt="Корзина покупок">&nbsp
+            <p>
+              : 12 товаров на сумму:&nbsp<strong>18 987 р</strong>&nbsp&nbsp
+              <a class="btn btn-success" href="#" role="button">Заказать</a>
+            </p>
+          </div>
+          <div class="short">
+            <p>
+              <img src="img/icons/icon-07.svg" alt="Корзина покупок">
+              12 : <strong>18 987 р</strong>&nbsp&nbsp
+              <a class="btn btn-success" href="#" role="button">Заказать</a>
+            </p>
+          </div>
+          <div class="xshort">
+            <p>              
+              <a class="btn btn-success" href="#" role="button">
+                <img src="img/icons/icon-07.svg" alt="Корзина покупок">
+                <strong>18 987 р</strong>
+              </a>
+            </p>
+          </div>
+        </div> <!-- End Shopping cart col --> 
+      </div> <!-- End Navwrap --> 
+    </div>        
+    <!-- Exec scroll navi -->  
+    <script type="text/javascript">$('#scrollnavi').scrollToFixed();</script>
+    <!-- End Exec scroll navi -->
+    <!-- Page content -->   
+    <div class="container showcase">
+      <div class="row">        
+        <!-- JUMBOTRON --> 
+        <div class="col-xs-12 col-sm-12 col-md-12 jumbatron">
+          <H1>Лучшие суши в Иркутске!</H1><br>
+          <p>Раскажи друзьям</p><br>
+          <p>и получи 20% скидку!</p><br>
+          <p class="small">Расказать:</p>&nbsp<img src="img/icons/society-networks.png" alt="Акция: расскажи друзьям и получи 20% скидку!">
+        </div> <!-- End JUMBOTRON -->
+        
+        <!-- Sushi content -->
+          
+        <div id="mishen-01" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-01">            
+              <img class="img" src="img/sushi-roll-10.png" alt="Generic placeholder image">
+            </a>
+          <h3>Время Суши</h3>
+          <div class="description">
+            <p>Филадельфия, Филадельфия гурме, Филадельфия икура, Филадельфия лайт, Филадельфия татаки.</p>
+          </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+        <div id="mishen-02" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-02">            
+              <img class="img" src="img/sushi-roll-8.png" alt="Generic placeholder image">
+            </a>
+          <h3>Время Суши</h3>
+          <div class="description">
+            <p>Филадельфия, Филадельфия гурме, Филадельфия икура, Филадельфия лайт, Филадельфия татаки.</p>
+          </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+        <div id="mishen-03" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-03">            
+              <img class="img" src="img/sushi-roll-9.png" alt="Generic placeholder image">
+            </a>
+          <h3>Сакура</h3>
+          <div class="description">
+            <p>Филадельфия, Калифорния, Унаги комбо маки, Канада, Филадельфия татаки, Кюри маки.</p>
+          </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+        <div id="mishen-04" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-04">            
+              <img class="img" src="img/sushi-roll-4.png" alt="Generic placeholder image">
+            </a>
+          <h3>Время Суши</h3>
+          <div class="description">
+            <p>Филадельфия, Филадельфия гурме, Филадельфия икура, Филадельфия лайт, Филадельфия татаки.</p>
+          </div>  
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+        <div id="mishen-05" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-05">            
+              <img class="img" src="img/sushi-roll-5.png" alt="Generic placeholder image">
+            </a>
+          <h3>Фила Бамбу</h3>
+          <div class="description">
+            <p>Филадельфия, Филадельфия гурме, Филадельфия икура, Филадельфия лайт, Филадель фия татаки.</p>
+          </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+        <div id="mishen-06" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-06">
+              <img class="img" src="img/sushi-roll-6.png" alt="Generic placeholder image">
+            </a>
+            <h3>Фила сет</h3>
+            <div class="description">
+              <p>Филадельфия, Филадельфия гурме, Филадельфия икура.</p>
+            </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+        
+        <div id="mishen-07" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-07">
+              <img class="img" src="img/sushi-roll-2.png" alt="Generic placeholder image">
+            </a>
+            <h3>Фила сет</h3>
+            <div class="description">
+              <p>Филадельфия, Филадельфия гурме, Филадельфия икура.</p>
+            </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+        
+        <div id="mishen-08" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-08">
+              <img class="img" src="img/sushi-roll-3.png" alt="Generic placeholder image">
+            </a>
+            <h3>Сакура</h3>
+            <div class="description">
+              <p>Филадельфия, Калифорния, Унаги комбо маки, Канада, Филадельфия татаки, Кюри маки.</p>
+            </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+        
+
+        <div id="mishen-09" class="cart col-xs-12 col-sm-6 col-md-4">          
+          <div class="face">
+            <a href="#close" title="Закрыть">
+              <img src="img/icons/icon-08.svg" alt="Закрыть">
+            </a>
+            <a href="#mishen-09">
+              <img class="img" src="img/sushi-roll-1.png" alt="Generic placeholder image">
+            </a>
+            <h3>Фила Бамбу</h3>
+            <div class="description">
+              <p>Филадельфия, Филадельфия гурме, Филадельфия икура, Филадельфия лайт, Филадельфия татаки.</p>
+            </div>
+            <div class="container-fluid">
+              <div class="goodslabel">                
+                <div class="weight-quantity">
+                  <div class="wq-btn">
+                    <p>
+                      <a class="btn btn-success minus" role="button">-</a>
+                      24 шт. / 750 г.
+                      <a class="btn btn-success plus" role="button">+</a>
+                    </p>
+                  </div>
+                  <div class="weight">
+                    750 г.
+                  </div>
+                  <div class="quantity">
+                    24 шт.
+                  </div>
+                </div>                
+                <strong class="price">920 Р</strong>
+                <a class="btn btn-success" href="#mishen" role="button">В корзину</a>
+              </div> 
+            </div><!-- End container-fluid -->
+          </div><!-- End face -->
+        </div><!-- End cart -->
+
+        
+      </div> <!-- End Sushi content -->
+    </div> <!-- End Page content -->    
+    <!-- Footer -->    
+    <footer>
+      <div class="footerwrap">
+        <div class="pull-left copy">
+          <p>&copy; 2014 ФУТО МАРО<br>e-mail: admin@futomara.ru</p>
+        </div>
+        
+        <div class="pull-left delivery">
+          <p class="pull-left">Доставки суши в Иркутске:<br>Часы работы: 10:00 - 24:00</p>
+          <p class="tel">77-77-77</p>
+        </div>
+       
+        
+        <div class="pull-left pay">
+          <p class="pull-left">Принимаем к оплате:&nbsp</p><img src="img/icons/pay-futo-maro.png" alt="Способы оплаты">
+        </div>
+        <a class="btn btn-default pull-right " href="#" role="button"><img src="img/icons/icon-09.svg"></img> Наверх</a> 
+      </div>      
+    </div>
+   </footer> <!-- End Footer -->
+  </body>
+</html>
