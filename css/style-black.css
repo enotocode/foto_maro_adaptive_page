@@ -259,7 +259,7 @@ select {
 
 /* * * Drop-down hamburger menu * * */
 
-@media screen and (max-width: 780px) { 
+@media screen and (max-width: 800px) { 
     .branding {
         margin: 0;
     }
