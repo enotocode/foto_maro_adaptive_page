@@ -719,6 +719,7 @@ nav select {
 }
 .description p {
     min-width: 250px;
+    overflow: hidden;
 }
 
 @media (max-width:400px) {
