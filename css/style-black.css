@@ -1,4 +1,4 @@
-/* * * Футо Маро Доставка суши в Иркутске 13-01-2016 * * */
+/* * * Г”ГіГІГ® ГЊГ Г°Г® Г„Г®Г±ГІГ ГўГЄГ  Г±ГіГёГЁ Гў Г€Г°ГЄГіГІГ±ГЄГҐ 13-01-2016 * * */
 
 * {
     transition: all 1s;
@@ -39,6 +39,47 @@ img {
     .container {
      width: 1170px;
     }
+}
+
+/* * * Feedback form * * */
+.feedback-form {
+   visibility: hidden;
+   width: 100%;
+   max-width: 500px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 30; 
+   box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+   padding: 30px;
+   border-radius: 3px;
+   background-color: #fff;
+}
+
+.ff-overlay {
+   visibility: hidden;   
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, .5);
+   z-index: 20;
+}
+
+.feedback-form-close {
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   fill: #444;
+   cursor: pointer;
+}
+
+.feedback-form * {
+   transition: unset;
 }
 
 /* * * Btn from Bootstraps * * */
@@ -576,7 +617,7 @@ nav select {
 }
 
 
-/* Ссылка на кнопку Закрыть */
+/* Г‘Г±Г»Г«ГЄГ  Г­Г  ГЄГ­Г®ГЇГЄГі Г‡Г ГЄГ°Г»ГІГј */
 .cart a[href="#close"] {
     position: absolute;
     right: 0;
