@@ -565,3 +565,7 @@
         });
     };
 })(jQuery);
+
+document.addEventListener('DOMContentLoaded', function() {
+    $('#scrollnavi').scrollToFixed();
+});

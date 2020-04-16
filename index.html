@@ -17,7 +17,8 @@
     <![endif]-->
     <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
     <!-- Scroll menu -->
-    <script type="text/javascript" src="jquery-scrolltofixed.js"></script>            
+    <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>  
+    <script type="text/javascript" src="js/feedback.js"></script>          
   </head>  
   <body>   
     <!-- Header -->
@@ -45,7 +46,10 @@
           <!-- Contacts -->
           <div class="contacts">
             <p id="tel">
-              <img src="img/icons/icon-06.svg" alt="Телефон в Иркутске">&nbsp&nbsp<strong>77-77-77</strong>
+              <img src="img/icons/icon-06.svg" alt="Телефон в Иркутске">&nbsp&nbsp
+              <tel>
+                <strong>77-77-77</strong>
+              </tel>
             </p>
             <p id="workhours">
               Часы работы: 10 - 24
@@ -115,10 +119,7 @@
           </div>
         </div> <!-- End Shopping cart col --> 
       </div> <!-- End Navwrap --> 
-    </div>        
-    <!-- Exec scroll navi -->  
-    <script type="text/javascript">$('#scrollnavi').scrollToFixed();</script>
-    <!-- End Exec scroll navi -->
+    </div>
     <!-- Page content -->   
     <div class=bodywrap>
       <div class="container showcase">
@@ -490,12 +491,16 @@
     <footer>
       <div class="footerwrap">
         <div class="pull-left copy">
-          <p>&copy; 2014 ФУТО МАРО<br>e-mail: admin@futomara.ru</p>
+          <p>&copy; 2014 ФУТО МАРО<br>e-mail: <a href="mailto:admin@futomara.ru">admin@futomara.ru</a></p>
         </div>
         
         <div class="pull-left delivery">
           <p class="pull-left">Доставки суши в Иркутске:<br>Часы работы: 10:00 - 24:00</p>
-          <p class="tel">77-77-77</p>
+          <p class="tel">
+            <tel>
+              77-77-77
+            </tel>
+            </p>
         </div>
        
         
@@ -506,6 +511,5 @@
       </div>      
     </div>
    </footer> <!-- End Footer -->
-  </body>
-  <script type="text/javascript" src="js/feedback.js"></script>
+  </body>  
 </html>
